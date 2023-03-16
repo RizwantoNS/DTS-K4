@@ -46,4 +46,40 @@
   main input {
     padding-left: 15px;
   }
+  .locate {
+    padding-bottom: 0;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  footer {
+    width: 100%;
+    bottom: 0;
+    height: 180px;
+  }
+
+  .info {
+    margin-right: 0;
+    font-size: 12px;
+  }
+  .locate {
+    padding-bottom: 0;
+  }
+  .footer-left p {
+    padding-top: 10px;
+  }
+
+  .box-search form input {
+    display: none;
+  }
+  .box-search form span {
+    top: -15px;
+  }
+  .footer-left .title {
+    font-size: 20px;
+  }
+  .footer-left {
+    margin-left: 5px;
+    padding-left: 10px;
+  }
 }
